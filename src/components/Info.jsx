@@ -1,9 +1,12 @@
+import Avatar from "../assets/Profile-image.png"
+import EmailIcon from "../assets/email-icon.svg"
+import LinkedInIcon from  "../assets/linkedin-icon.svg"
 function Info() {
   return (
     <div className="header">
       <img
         className="avatar"
-        src="../src/assets/Profile-image.png"
+        src={Avatar}
         alt="Ben Wanjohi profile photo"
       />
       <div className="info-details">
@@ -17,11 +20,11 @@ function Info() {
           href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://mail.google.com/mail/u/0/&ved=2ahUKEwjm7M3c7LKQAxWOzgIHHZxDCfQQFnoECAwQAQ&usg=AOvVaw1GRqnzaEzJ-JntPiR5Sc98"
           target="_blank"
         >
-          <img className="image-icon" src="../src/assets/email-icon.svg" />
+          <img className="image-icon" src={EmailIcon} />
           Email
         </a>
         <a className="button-icon" href="https://ke.linkedin.com/" target="_blank">
-          <img className="image-icon" src="../src/assets/linkedin-icon.svg" />
+          <img className="image-icon" src={LinkedInIcon} />
           LinkedIn
         </a>
       </div>
