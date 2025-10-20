@@ -3,7 +3,7 @@ function Info() {
     <div className="header">
       <img
         className="avatar"
-        src="../src/assets/Profile-image.png"
+        src="/src/assets/Profile-image.png"
         alt="Ben Wanjohi profile photo"
       />
       <div className="info-details">
