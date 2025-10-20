@@ -3,7 +3,7 @@ function About() {
     <div className="about-section">
       <h2 className="about-title">About</h2>
       <p className="about-para">
-        I’m a front-end develoX\per who enjoys bringing ideas to life in the
+        I’m a front-end developer who enjoys bringing ideas to life in the
         browser. I love working with HTML, CSS, and JavaScript, and I’ve been
         exploring React to build fun, responsive, and interactive projects.
       </p>
