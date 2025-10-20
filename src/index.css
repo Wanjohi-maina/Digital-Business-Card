@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 317px;
+  margin: 0 auto;
+  color: white;
+  font-family: "Inter", sans-serif;  
+  background-color: #343538;
+}
+#root {
+ background-color: #1A1B21;
+ border-radius: 10px;
+ overflow: hidden;
+}
+
+.avatar {
+  width: 317px;
+  height: 317px;
+}
+.info-details, 
+.info-buttons {
+  text-align: center;
+  margin-top: 1.25em;
+}
+.info-name {
+  font-size: 1.56rem;
+  font-weight: bold;
+}
+.info-desc {
+  color: #F3BF99;
+  font-size: 0.8rem;
+  margin-top: 0.3125em;
+}
+.info-web {
+  font-size: 0.64rem;
+  margin-top: 0.5859em;
+  color: #F5F5F5;
+}
+
+.button-icon {
+  background-color: #5093E2;
+  color: #FFFFFF;
+  margin: 0 0.5em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+.image-icon {
+  margin: 0 5px;
+}
+.email-icon {
+  background-color: white;
+  color: #404040;
+}
+
+.about-section {
+   padding: 30px 40px;
+}
+
+.about-title,
+.interest-title {
+  font-size: 1rem;
+  color: #F5F5F5;
+  font-weight: bold;
+}
+.about-para, 
+.interest-para {
+  color: #DCDCDC;
+  font-size: 0.75rem;
+  margin-top: 10px;
+  line-height: 1.5;
+} 
+.interest-section {
+  padding: 0 40px;
+  margin-top: -10px;
+}
+.footer-icons {
+  width: 25px;
+  height: 25px;
+  background-color: #918E9B;
+  padding: 3px;
+  border-radius: 3px;
+}
+.footer-section {
+  margin-top: 1.25em;
+  padding: 1em; 
+  background-color: #161619;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
