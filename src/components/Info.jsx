@@ -3,7 +3,7 @@ function Info() {
     <div className="header">
       <img
         className="avatar"
-        src="/src/assets/Profile-image.png"
+        src="../src/assets/Profile-image.png"
         alt="Ben Wanjohi profile photo"
       />
       <div className="info-details">
@@ -20,7 +20,7 @@ function Info() {
           <img className="image-icon" src="../src/assets/email-icon.svg" />
           Email
         </a>
-        <a className="button-icon" href="https://ke.linkedin.com/">
+        <a className="button-icon" href="https://ke.linkedin.com/" target="_blank">
           <img className="image-icon" src="../src/assets/linkedin-icon.svg" />
           LinkedIn
         </a>
